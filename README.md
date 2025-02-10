@@ -24,13 +24,13 @@
 
  
 #Cleaning Steps
-1.Checking For duplicates
+#1.Checking For duplicates
 No duplicates were found so no changes where made to target them
-2. Checking for categorization Inconsitencis
+#2. Checking for categorization Inconsitencis
  Columns that may have had inconsitent categories due to diffent capitalization such as 'male' and  "Male' where checked individually to  see if any of them possesd those inconsitencies, this consisted of the Gender,Education and Occupation Columns
 No inconsistent values were found so no chnages were made to target them
-3.Checking for missing values
+#3.Checking for missing values
 The dataset was checked for mmissing values by shoing the sum of null values each column had. the columns that had missing values consiseted of 'Primary_App','Secondary_App' and 'Challenges'
 To deal with this each null value was replace with the  value 'Unknown'
-4.Creating categorical columns.
+#4.Creating categorical columns.
 All columns that were not numerical columns were converted to categorical columns, the only numerical column present was 'Age'.
