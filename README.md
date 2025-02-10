@@ -1,7 +1,10 @@
-# ML-version1
- Dataset consists of user information gained from students using dating apps in  india
- Data set consists of 500 rows and 16 columns
-### **Data Dictionary**
+# **ML-Version1**  
+This dataset contains user information collected from students using dating apps in India.  
+It consists of **500 rows** and **16 columns**.  
+
+---
+
+## **Data Dictionary**  
 
 | Column Name               | Data Type | Description |
 |---------------------------|----------|-------------|
@@ -22,15 +25,30 @@
 | **Preferred_Communication** | object | User’s preferred way of receiving updates |
 | **Partner_Priorities**    | object   | Priorities users consider when choosing an online platform |
 
- 
-#Cleaning Steps
-#1.Checking For duplicates
-No duplicates were found so no changes where made to target them
-#2. Checking for categorization Inconsitencis
- Columns that may have had inconsitent categories due to diffent capitalization such as 'male' and  "Male' where checked individually to  see if any of them possesd those inconsitencies, this consisted of the Gender,Education and Occupation Columns
-No inconsistent values were found so no chnages were made to target them
-#3.Checking for missing values
-The dataset was checked for mmissing values by shoing the sum of null values each column had. the columns that had missing values consiseted of 'Primary_App','Secondary_App' and 'Challenges'
-To deal with this each null value was replace with the  value 'Unknown'
-#4.Creating categorical columns.
-All columns that were not numerical columns were converted to categorical columns, the only numerical column present was 'Age'.
+---
+
+## **Cleaning Steps**  
+
+### **1. Checking for Duplicates**  
+- No duplicate rows were found, so no changes were made.  
+
+### **2. Checking for Categorical Inconsistencies**  
+- Columns that may have inconsistent values due to capitalization (e.g., `'male'` vs. `'Male'`) were checked individually.  
+- The **Gender, Education, and Occupation** columns were reviewed.  
+- No inconsistent values were found, so no changes were needed.  
+
+### **3. Handling Missing Values**  
+- The dataset was checked for missing values by summing the null values in each column.  
+- Missing values were found in:  
+  - **Primary_App**  
+  - **Secondary_Apps**  
+  - **Challenges**  
+- All missing values were replaced with **"Unknown"** to ensure consistency.  
+
+### **4. Creating Categorical Columns**  
+- All **non-numerical columns** were converted to categorical data types.  
+- The only **numerical column** present was **Age**.  
+
+---
+
+This cleaned dataset is now **ready for analysis**.  
