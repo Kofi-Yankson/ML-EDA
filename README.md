@@ -1,6 +1,6 @@
 # **ML-Version1**  
 This dataset contains user information collected from students using dating apps in India.  
-It consists of **500 rows** and **16 columns**.  
+The dataset consists of **500 rows** and **16 columns**.  
 
 ---
 
@@ -29,25 +29,23 @@ It consists of **500 rows** and **16 columns**.
 
 ## **Cleaning Steps**  
 
-### **1. Checking for Duplicates**  
+### **1. Checking for Duplicates** 
+-The data set was searched for duplicate rows
 - No duplicate rows were found, so no changes were made.  
 
 ### **2. Checking for Categorical Inconsistencies**  
-- Columns that may have inconsistent values due to capitalization (e.g., `'male'` vs. `'Male'`) were checked individually.  
-- The **Gender, Education, and Occupation** columns were reviewed.  
+- Columns that may have inconsistent values due to capitalization (e.g., `'male'` vs. `'Male'`) were checked individually  see if any of them possesd those inconsitencies. The **Gender, Education, and Occupation** columns were reviewed.  
 - No inconsistent values were found, so no changes were needed.  
 
 ### **3. Handling Missing Values**  
 - The dataset was checked for missing values by summing the null values in each column.  
-- Missing values were found in:  
-  - **Primary_App**  
-  - **Secondary_Apps**  
-  - **Challenges**  
+- Missing values were found in  **Primary_App** , **Secondary_Apps** and **Challenges**  
 - All missing values were replaced with **"Unknown"** to ensure consistency.  
 
 ### **4. Creating Categorical Columns**  
 - All **non-numerical columns** were converted to categorical data types.  
-- The only **numerical column** present was **Age**.  
+- The only **numerical column** present was **Age**.
+- the coloumn **Satisfaction** was also changed to a categorical type due to the nature of its use of numbers to categorise rather than provide statistical information
 
 ---
 
