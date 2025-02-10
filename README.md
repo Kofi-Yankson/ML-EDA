@@ -47,6 +47,9 @@ The dataset consists of **500 rows** and **16 columns**.
 - The only **numerical column** present was **Age**.
 - the coloumn **Satisfaction** was also changed to a categorical type due to the nature of its use of numbers to categorise rather than provide statistical information
 
+### **5. Checking for Outliers**
+- the age column was reviewed using the IQR and box plot to find and display any out liers
+- No outliers wer found
 ---
 
 This cleaned dataset is now **ready for analysis**.  
