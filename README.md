@@ -34,7 +34,7 @@ The dataset consists of **500 rows** and **16 columns**.
 - No duplicate rows were found, so no changes were made.  
 
 ### **2. Checking for Categorical Inconsistencies**  
-- Columns that may have inconsistent values due to capitalization (e.g., `'male'` vs. `'Male'`) were checked individually  see if any of them possesd those inconsitencies. The **Gender, Education, and Occupation** columns were reviewed.  
+- Columns that may have inconsistent values due to capitalization (e.g., `'male'` vs. `'Male'`)  and any other kind of inconsitencies were checked individually  see if any of them possesd those errors. The **Gender, Education, and Occupation** columns were reviewed.  
 - No inconsistent values were found, so no changes were needed.  
 
 ### **3. Handling Missing Values**  
