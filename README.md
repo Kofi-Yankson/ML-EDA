@@ -1,6 +1,7 @@
 # **ML-Version1**  
 This dataset contains user information collected from students using dating apps in India.  
-The dataset consists of **500 rows** and **16 columns**.  
+The dataset consiseted  of **500 rows** and **16 columns** before cleaning.
+The dataset now consists of **239 rows** and **16 columns** after cleaning.
 
 ---
 
@@ -38,9 +39,11 @@ The dataset consists of **500 rows** and **16 columns**.
 - No inconsistent values were found, so no changes were needed.  
 
 ### **3. Handling Missing Values**  
-- The dataset was checked for missing values by summing the null values in each column.  
+- Initially The dataset was checked for missing values by summing the null values in each column.  
 - Missing values were found in  **Primary_App** , **Secondary_Apps** and **Challenges**  
-- All missing values were replaced with **"Unknown"** to ensure consistency.  
+- All missing values were replaced with **"Unknown"** to ensure consistency.
+- After begining analysis it became clear that the filled in vlues would affect the accuracy of the analyis
+- All rows with **'Unknown'** as their values were removed 
 
 ### **4. Creating Categorical Columns**  
 - All **non-numerical columns** were converted to categorical data types.  
