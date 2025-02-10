@@ -55,4 +55,10 @@ The dataset now consists of **239 rows** and **16 columns** after cleaning.
 - No outliers wer found
 ---
 
-This cleaned dataset is now **ready for analysis**.  
+visualizations. 
+1. If a dating app wanted to expand into rural India, which insights from this dataset 
+would be most valuable?
+the distrubution of users by age woulud be valuable as itll be compared with who many age groups exixt in rural areas that would be using the app the same as those in rual areas
+2. Filtering by prefered gender is a feature i would add
+   second feature i showing the closest locations containing users based on your filters
+3. Dealing with the missing values without affecting the accruacy of the analysis
